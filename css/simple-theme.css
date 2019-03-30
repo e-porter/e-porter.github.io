@@ -6,6 +6,7 @@ body {
     background-color: #fcfcfc;
     display: flex;
     flex-direction: column;
+    color: #181818;
 }
 
 main {
@@ -34,6 +35,7 @@ content {
 
 content p {
     text-align: justify;
+    line-height: 1.5;
 }
 
 content end {
@@ -56,13 +58,20 @@ h3 {
 
 /* Highlight */
 hi {
-    background-color: #e8e818;
+    background-color: #ddf087;
+    background-image: linear-gradient(45deg, #ddf087 25%, #c6d67c 25%, #c6d67c 50%, #ddf087 50%, #ddf087 75%, #c6d67c 75%, #c6d67c 100%);
+    background-size: 20.00px 20.00px;
+    padding: 2px;
 }
 
 a {
     text-decoration: none;
-    color: #248ebe;
-    /*border-bottom: 2px dashed;*/
+    color: #288ebd;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: #1c6d92;
 }
 
 footer {
