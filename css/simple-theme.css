@@ -62,7 +62,7 @@ hi {
 a {
     text-decoration: none;
     color: #248ebe;
-    border-bottom: 2px dashed;
+    /*border-bottom: 2px dashed;*/
 }
 
 footer {
