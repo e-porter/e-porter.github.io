@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+spacer {
+    flex: 1;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    max-width: 800px;
+    padding: 10px;
+}
+
+content {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+content p {
+    text-align: justify;
+}
+
+content end {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'Bitter', monospace;
+    font-weight: normal;
+}
+
+/* Highlight */
+hi {
+    background-color: #e8e818;
+}
+
+a {
+    text-decoration: none;
+    color: #248ebe;
+    border-bottom: 2px dashed;
+}
+
+footer {
+    background-color: #181818;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
