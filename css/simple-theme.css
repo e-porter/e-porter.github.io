@@ -48,6 +48,10 @@ h3 {
     margin: 0;
     font-family: 'Bitter', monospace;
     font-weight: normal;
+    background-color: #181818;
+    color: white;
+    padding: 5px;
+    margin: -10px;
 }
 
 /* Highlight */
@@ -68,4 +72,9 @@ footer {
 
 * {
     box-sizing: border-box;
+}
+
+::selection {
+    background-color: black;
+    color: white;
 }
